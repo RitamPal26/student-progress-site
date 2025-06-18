@@ -1,5 +1,5 @@
 const cron    = require('node-cron');
-const Student = require('../models/Student');
+const Student = require('../models/student');
 const { syncStudentData } = require('../services/codeforcesService');
 const { sendReminderEmail } = require('../services/emailService');
 
