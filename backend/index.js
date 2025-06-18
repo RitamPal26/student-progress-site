@@ -29,8 +29,8 @@ connectDB();
 // CORS middleware - must be first
 app.use(cors(corsOptions));
 
-// Handle preflight requests explicitly
-app.options("*", cors(corsOptions));
+// Handle preflight requests explicitly - FIXED for Express v5
+app.options("*catchall", cors(corsOptions));
 
 // Other middleware
 app.use(express.json());
@@ -43,6 +43,14 @@ app.use("/api/summary", require("./routes/summary"));
 
 app.get("/", (req, res) => {
   res.send("Student Progress Management System API");
+});
+
+// 404 handler - FIXED for Express v5
+app.all("*catchall", (req, res) => {
+  res.status(404).json({
+    message: "Route not found",
+    path: req.originalUrl,
+  });
 });
 
 const PORT = process.env.PORT || 5000;
