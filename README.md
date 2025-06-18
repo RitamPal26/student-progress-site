@@ -155,16 +155,6 @@ EMAIL_PASS=your-16-digit-app-password
 | GET | `/api/data/submissions/:id` | Get submission data |
 | GET | `/api/summary/problems/:id` | Get problem-solving metrics |
 
-## 🎥 Demo Video
-
-[Watch the full demonstration](your-video-link-here)
-
-The demo showcases:
-- Student CRUD operations with real-time sync
-- Interactive analytics and filtering
-- Dark/light theme switching
-- Mobile responsiveness
-- Email reminder system
 
 ## 🤝 Contributing
 
@@ -174,9 +164,6 @@ The demo showcases:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
