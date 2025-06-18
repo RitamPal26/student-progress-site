@@ -1,0 +1,10 @@
+﻿# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+
+# Env files
+backend/.env
+frontend/.env
+.env
