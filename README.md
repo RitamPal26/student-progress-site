@@ -29,7 +29,6 @@ This application streamlines the management of competitive programming students 
 
 ### 🎨 User Experience
 - **Dark/Light Theme**: Toggle between themes with persistent preference
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Modern UI**: Material-UI components with smooth animations
 - **Error Handling**: Comprehensive error states and user feedback
 
