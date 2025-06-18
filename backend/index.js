@@ -1,7 +1,8 @@
 const express = require("express");
+const cors = require('cors');  
 const corsOptions = {
   origin: [
-    "https://your-frontend-service-name.onrender.com",
+    "https://student-progress-site-frontend.onrender.com",
     "http://localhost:3000", // Keep for local development
   ],
   credentials: true,

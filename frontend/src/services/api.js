@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_BASE =
   process.env.NODE_ENV === "production"
-    ? "https://your-backend-service-name.onrender.com/api"
+    ? "https://student-progress-site.onrender.com/api"
     : "http://localhost:5000/api";
 
 export const studentAPI = {
